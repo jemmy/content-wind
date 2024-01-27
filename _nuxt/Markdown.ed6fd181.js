@@ -1,1 +1,0 @@
-import r from"./ContentSlot.2834b2d4.js";import{d as s,a4 as u,I as f,al as l}from"./entry.6217989a.js";const m=s({name:"Markdown",extends:r,setup(t){const{parent:e}=l(),{between:n,default:a}=u(),o=f(()=>typeof t.unwrap=="string"?t.unwrap.split(" "):["*"]);return{fallbackSlot:a,tags:o,between:n,parent:e}}});export{m as default};
